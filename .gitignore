@@ -1,0 +1,11 @@
+.env
+foundry.toml
+foundry.lock
+out/
+cache/
+broadcast/
+forge-debug.log
+forge-test-debug.log
+coverage/
+coverage.json
+coverage.txt
