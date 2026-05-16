@@ -1,0 +1,70 @@
+{
+  "cid": "QmdkNSiDwwsmST8kRJt1gpkQcFLAnUyenVGFZ9NsT1WE5o",
+  "ipfs_url": "https://gateway.pinata.cloud/ipfs/QmdkNSiDwwsmST8kRJt1gpkQcFLAnUyenVGFZ9NsT1WE5o",
+  "ticker": "BTC",
+  "conviction_score": 20,
+  "recommended_action": "HOLD",
+  "generated_at": "2026-05-16T17:53:28.987717+00:00",
+  "trace": {
+    "ticker": "BTC",
+    "generated_at": "2026-05-16T17:53:28.987717+00:00",
+    "bull_thesis": {
+      "summary": "Bitcoin's increasing adoption and limited supply could drive up its price, while its decentralized nature and security features make it an attractive store of value.",
+      "key_arguments": [
+        "Growing institutional investment",
+        "Improving regulatory clarity",
+        "Technological advancements in scalability and usability"
+      ],
+      "catalysts": [
+        "Widespread adoption of Bitcoin as a form of payment",
+        "Increased demand from investors seeking diversification"
+      ],
+      "price_target_rationale": "Based on historical trends and growing demand, a price target of $100,000 is achievable in the long term."
+    },
+    "bear_thesis": {
+      "summary": "Bitcoin's high volatility, lack of intrinsic value, and regulatory risks could lead to significant price drops, making it a risky investment.",
+      "key_arguments": [
+        "Limited real-world use cases",
+        "Competition from other cryptocurrencies",
+        "Potential for stricter regulations"
+      ],
+      "risks": [
+        "Market manipulation",
+        "Security risks due to hacking or 51% attacks"
+      ],
+      "downside_scenario": "A sharp decline in price due to a combination of regulatory crackdowns, security breaches, and decreasing investor interest."
+    },
+    "risk_analysis": {
+      "macro_risk": "high",
+      "sector_risk": "high",
+      "company_specific_risk": "N/A",
+      "liquidity_risk": "medium",
+      "overall_risk": "high"
+    },
+    "research_manager_verdict": {
+      "recommended_action": "HOLD",
+      "time_horizon": "long",
+      "confidence": "medium",
+      "key_uncertainties": [
+        "Regulatory environment",
+        "Adoption rates",
+        "Competing cryptocurrencies"
+      ]
+    },
+    "portfolio_manager_output": {
+      "position_size": "small",
+      "entry_strategy": "Dollar-cost averaging to reduce volatility impact",
+      "stop_loss_rationale": "Set at 20% below the current price to limit potential losses",
+      "conviction_score": 20
+    },
+    "trace_metadata": {
+      "model": "llama-3.3-70b-versatile",
+      "framework": "Trading-R1 / TradingAgents v0.2.4",
+      "agent_roles": [
+        "Trader",
+        "Research Manager",
+        "Portfolio Manager"
+      ]
+    }
+  }
+}

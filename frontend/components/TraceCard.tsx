@@ -68,14 +68,14 @@ export default function TraceCard({ traceId, onClick, selected }: Props) {
 
       <div style={{ marginTop: '10px', fontSize: '11px', color: 'var(--text-muted)' }}>
         <span style={{ color: 'var(--green-muted)' }}>IPFS </span>
-        
-          href={`${process.env.NEXT_PUBLIC_PINATA_GATEWAY}/${trace.ipfsCid}`}
+        <a
+         href={`${process.env.NEXT_PUBLIC_PINATA_GATEWAY}/${trace.ipfsCid}`}
           target="_blank"
           rel="noreferrer"
           style={{ color: 'var(--text-muted)', textDecoration: 'underline' }}
-          onClick={e => e.stopPropagation()}
+          onClick={(e) => {e.stopPropagation()}}
         >
-          {trace.ipfsCid.slice(0, 20)}…
+          {trace.ipfsCid.slice(0, 20)}...
         </a>
       </div>
 
