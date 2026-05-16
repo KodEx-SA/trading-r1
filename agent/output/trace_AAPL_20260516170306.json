@@ -1,0 +1,69 @@
+{
+  "cid": "QmPxqD2XCks38ifh1sRZp1nNvL7dyB7wYdoKxiEyJ4m6Jp",
+  "ipfs_url": "https://gateway.pinata.cloud/ipfs/QmPxqD2XCks38ifh1sRZp1nNvL7dyB7wYdoKxiEyJ4m6Jp",
+  "ticker": "AAPL",
+  "conviction_score": 60,
+  "recommended_action": "BUY",
+  "generated_at": "2026-05-16T17:03:04.354091+00:00",
+  "trace": {
+    "ticker": "AAPL",
+    "generated_at": "2026-05-16T17:03:04.354091+00:00",
+    "bull_thesis": {
+      "summary": "AAPL's continued innovation in products and services, such as the iPhone and Apple Watch, along with its growing ecosystem of loyal customers, positions the company for sustained growth. AAPL's strong brand and expanding services segment, including Apple Music and Apple TV+, further support a bull case.",
+      "key_arguments": [
+        "Strong brand loyalty and ecosystem",
+        "Continuous innovation in products and services",
+        "Growing services segment"
+      ],
+      "catalysts": [
+        "New iPhone releases",
+        "Expansion of Apple services"
+      ],
+      "price_target_rationale": "Based on a multiple of projected earnings and considering the growth potential of its services segment."
+    },
+    "bear_thesis": {
+      "summary": "AAPL faces significant risks from global supply chain disruptions, intense competition in the tech industry, and potential regulatory challenges. Additionally, the company's reliance on a few key products for a large portion of its revenue exposes it to market fluctuations.",
+      "key_arguments": [
+        "Supply chain risks",
+        "Competition in the tech industry",
+        "Regulatory challenges"
+      ],
+      "risks": [
+        "Global economic downturn",
+        "Disruption in supply chains"
+      ],
+      "downside_scenario": "A significant decline in iPhone sales due to market saturation or competition."
+    },
+    "risk_analysis": {
+      "macro_risk": "medium",
+      "sector_risk": "medium",
+      "company_specific_risk": "low",
+      "liquidity_risk": "low",
+      "overall_risk": "medium"
+    },
+    "research_manager_verdict": {
+      "recommended_action": "BUY",
+      "time_horizon": "long",
+      "confidence": "medium",
+      "key_uncertainties": [
+        "Global economic trends",
+        "Competition from emerging technologies"
+      ]
+    },
+    "portfolio_manager_output": {
+      "position_size": "medium",
+      "entry_strategy": "Dollar-cost averaging to mitigate market volatility.",
+      "stop_loss_rationale": "Set at 10% below the entry price to limit potential losses.",
+      "conviction_score": 60
+    },
+    "trace_metadata": {
+      "model": "llama-3.3-70b-versatile",
+      "framework": "Trading-R1 / TradingAgents v0.2.4",
+      "agent_roles": [
+        "Trader",
+        "Research Manager",
+        "Portfolio Manager"
+      ]
+    }
+  }
+}

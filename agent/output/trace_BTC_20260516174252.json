@@ -1,0 +1,71 @@
+{
+  "cid": "QmWN14PmJHPYqDGCbTjibhaVmGBYfpcmC91n5NkBmxYgDs",
+  "ipfs_url": "https://gateway.pinata.cloud/ipfs/QmWN14PmJHPYqDGCbTjibhaVmGBYfpcmC91n5NkBmxYgDs",
+  "ticker": "BTC",
+  "conviction_score": 60,
+  "recommended_action": "BUY",
+  "generated_at": "2026-05-16T17:42:50.399236+00:00",
+  "trace": {
+    "ticker": "BTC",
+    "generated_at": "2026-05-16T17:42:50.399236+00:00",
+    "bull_thesis": {
+      "summary": "Bitcoin's growing adoption and increasing institutional investment could drive its price up, potentially reaching new highs. Its limited supply and decentralized nature make it an attractive store of value.",
+      "key_arguments": [
+        "Increasing institutional investment",
+        "Growing adoption in emerging markets",
+        "Limited supply and decentralized nature"
+      ],
+      "catalysts": [
+        "Improved regulatory clarity",
+        "Advancements in scalability and usability"
+      ],
+      "price_target_rationale": "If Bitcoin's adoption continues to grow and institutional investment increases, we could see the price reach $100,000 in the next 2-3 years."
+    },
+    "bear_thesis": {
+      "summary": "Bitcoin's price volatility and lack of intrinsic value make it a risky investment. Regulatory uncertainty and competition from other cryptocurrencies could also negatively impact its price. ",
+      "key_arguments": [
+        "Price volatility and lack of intrinsic value",
+        "Regulatory uncertainty and potential crackdowns",
+        "Competition from other cryptocurrencies"
+      ],
+      "risks": [
+        "Regulatory risks",
+        "Market volatility",
+        "Security risks"
+      ],
+      "downside_scenario": "If regulatory uncertainty increases or competition from other cryptocurrencies grows, Bitcoin's price could drop to $10,000 or lower."
+    },
+    "risk_analysis": {
+      "macro_risk": "high",
+      "sector_risk": "high",
+      "company_specific_risk": "N/A",
+      "liquidity_risk": "medium",
+      "overall_risk": "high"
+    },
+    "research_manager_verdict": {
+      "recommended_action": "BUY",
+      "time_horizon": "long",
+      "confidence": "medium",
+      "key_uncertainties": [
+        "Regulatory uncertainty",
+        "Competition from other cryptocurrencies",
+        "Market volatility"
+      ]
+    },
+    "portfolio_manager_output": {
+      "position_size": "medium",
+      "entry_strategy": "Dollar-cost averaging to reduce volatility",
+      "stop_loss_rationale": "Stop loss at $20,000 to limit potential losses",
+      "conviction_score": 60
+    },
+    "trace_metadata": {
+      "model": "llama-3.3-70b-versatile",
+      "framework": "Trading-R1 / TradingAgents v0.2.4",
+      "agent_roles": [
+        "Trader",
+        "Research Manager",
+        "Portfolio Manager"
+      ]
+    }
+  }
+}

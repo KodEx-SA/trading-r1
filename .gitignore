@@ -8,4 +8,5 @@ forge-debug.log
 forge-test-debug.log
 coverage/
 coverage.json
-coverage.txt
+coverage.txtagent/output/
+agent/.env
