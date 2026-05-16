@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <main style={{ minHeight: '100vh', padding: '1.5rem', maxWidth: '1100px', margin: '0 auto' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', borderBottom: '1px solid var(--border)', paddingBottom: '1rem' }}>
+      <div className="page-header"  style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', borderBottom: '1px solid var(--border)', paddingBottom: '1rem' }}>
         <div>
           <div style={{ color: 'var(--text-muted)', fontSize: '11px', letterSpacing: '0.15em', marginBottom: '4px' }}>
             AGORA AGENTS HACKATHON · ARC TESTNET
@@ -42,7 +42,7 @@ export default function Home() {
         <ConnectButton />
       </div>
 
-      <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '2rem' }}>
+      <div className="stats-bar"  style={{ display: 'flex', gap: '1.5rem', marginBottom: '2rem' }}>
         {[
           { label: 'Traces on-chain', value: count.toString() },
           { label: 'Active markets', value: marketCount ? Number(marketCount).toString() : '0' },
@@ -56,7 +56,7 @@ export default function Home() {
         ))}
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1rem' }}>
+      <div className="trace-grid"  style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1rem' }}>
         {count === 0 && (
           <div style={{ color: 'var(--text-muted)', fontSize: '14px', gridColumn: '1/-1', padding: '2rem 0' }}>
             No traces yet. Run the agent pipeline to publish the first one.

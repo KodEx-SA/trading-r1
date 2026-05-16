@@ -138,7 +138,7 @@ const actionBtn: React.CSSProperties = {
 
 function Panel({ children, onClose }: { children: React.ReactNode; onClose: () => void }) {
   return (
-    <div style={{
+    <div className="betting-panel" style={{
       position: 'fixed', bottom: '1.5rem', right: '1.5rem',
       width: '360px', background: 'var(--bg-card)',
       border: '1px solid var(--green-muted)', borderRadius: '12px',
